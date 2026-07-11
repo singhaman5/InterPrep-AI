@@ -1,5 +1,14 @@
 # InterviewIQ.AI
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-18-green?logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-4.18-black?logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Firebase-auth-orange?logo=firebase&logoColor=white" alt="Firebase" />
+  <img src="https://img.shields.io/badge/OpenRouter-AI-purple?logo=ai&logoColor=white" alt="OpenRouter" />
+</p>
+
 A modern AI-powered interview practice platform built with React, Node.js, Express, MongoDB, Firebase authentication, and OpenRouter AI integration.
 
 ## 🚀 Project Overview
