@@ -1,4 +1,4 @@
-# InterviewIQ.AI
+# InterPrep.AI
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white" alt="React" />
