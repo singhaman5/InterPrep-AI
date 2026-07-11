@@ -130,6 +130,23 @@ The frontend typically runs at `http://localhost:5173` or the next available por
 - Cookies are used for authentication, so make sure `withCredentials: true` is enabled in Axios requests
 - If OpenRouter returns safety metadata, the backend sanitizes it before parsing JSON
 
-## 👨‍💻 Built By
+---
 
-This project was built by **Aman Singh**.
+## 📬 Contact
+
+If you have questions, bug reports, or collaboration ideas, feel free to reach out.
+
+- **Author:** Aman Singh
+- **Project:** InterviewIQ.AI
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please consider giving it a star on GitHub. Your support helps improve the app and reach more users.
+
+---
+
+## ❤️ Made with love by Aman Singh
+
+> "Build something people love and share it with the world."
