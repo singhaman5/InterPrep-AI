@@ -27,9 +27,7 @@ import interviewRouter from "./routes/interview.route.js"
 
 const app = express()
 const allowedOrigins = [
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "http://localhost:5175",
+    "https://interprep-ai-client.onrender.com"
 ]
 
 app.use(cors({
