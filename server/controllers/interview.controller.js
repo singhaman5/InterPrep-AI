@@ -1,6 +1,5 @@
 import fs from "fs"
 import { askAi } from "../services/openRouter.service.js";
-import User from "../models/user.model.js";
 import Interview from "../models/interview.model.js";
 
 const setupPdfPolyfills = () => {
@@ -127,14 +126,6 @@ export const generateQuestion = async (req, res) => {
       return res.status(400).json({ message: "Role, Experience and Mode are required." })
     }
 
-    const user = await User.findById(req.userId)
-
-    if (!user) {
-      return res.status(404).json({
-        message: "User not found."
-      });
-    }
-
     const projectText = Array.isArray(projects) && projects.length
       ? projects.join(", ")
       : "None";
@@ -223,7 +214,7 @@ Make questions based on the candidate’s role, experience,interviewMode, projec
     }
 
     const interview = await Interview.create({
-      userId: user._id,
+      userId: req.userId || undefined,
       role,
       experience,
       mode,
@@ -237,7 +228,7 @@ Make questions based on the candidate’s role, experience,interviewMode, projec
 
     res.json({
       interviewId: interview._id,
-      userName: user.name,
+      userName: "Candidate",
       questions: interview.questions
     });
   } catch (error) {
