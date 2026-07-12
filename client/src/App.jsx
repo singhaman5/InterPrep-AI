@@ -11,7 +11,7 @@ import InterviewPage from './pages/InterviewPage'
 import InterviewHistory from './pages/InterviewHistory'
 import InterviewReport from './pages/InterviewReport'
 
-export const ServerUrl  = "http://localhost:8000"
+export const ServerUrl  = "https://interprep-ai-qmdd.onrender.com"
 
 function App() {
   const dispatch = useDispatch()
