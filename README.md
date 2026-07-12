@@ -13,7 +13,7 @@ A modern AI-powered interview practice platform built with React, Node.js, Expre
 
 ## 🚀 Project Overview
 
-InterviewIQ.AI helps users prepare for technical interviews with resume analysis, role-based question generation, and mock interview tracking. The app supports Google sign-in, resume uploading, and intelligent question generation based on user profile and resume content.
+InterPrep-AI helps users prepare for technical interviews with resume analysis, role-based question generation, and mock interview tracking. The app supports Google sign-in, resume uploading, and intelligent question generation based on user profile and resume content.
 
 ## 📦 Features
 
@@ -137,7 +137,7 @@ The frontend typically runs at `http://localhost:5173` or the next available por
 If you have questions, bug reports, or collaboration ideas, feel free to reach out.
 
 - **Author:** Aman Singh
-- **Project:** InterviewIQ.AI
+- **Project:** InterPrep-AI
 
 ---
 
